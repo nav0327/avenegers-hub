@@ -1,0 +1,14 @@
+.orderDetail table {
+  margin-top: 17px;
+  min-Width: 700;
+}
+.orderDetail{
+  width: '100%'
+}
+
+.orderDetail th{
+  background:black;
+	color: white
+}
+.orderDetail tr:nth-child(even) {background: #CCC}
+.orderDetail tr:nth-child(odd) {background: #FFF}

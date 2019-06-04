@@ -1,0 +1,19 @@
+{
+  "name": "loginsample",
+  "version": "1.0.0",
+  "description": "repo to hold code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayashrees95/LoginSample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayashrees95/LoginSample/issues"
+  },
+  "homepage": "https://github.com/jayashrees95/LoginSample#readme"
+}

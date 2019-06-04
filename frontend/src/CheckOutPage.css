@@ -1,0 +1,59 @@
+.checkoutpage-container {
+  max-width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  background-color: #ff4b2b;
+}
+
+.checkoutpage-container form {
+  display: contents;
+  text-align: left;
+}
+
+.user-details {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1em;
+  border-radius: 15px;
+  margin: 50px;
+  flex-grow: 7;
+}
+
+.credit-card-details {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1em;
+  border-radius: 15px;
+  margin: 50px;
+  flex-grow: 7;
+}
+
+.purchase-card {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1em;
+  border-radius: 15px 50px 30px 5px;
+  margin: 50px;
+  flex-grow: 3;
+}
+
+.purchase-card > .show-grid {
+  padding-bottom: 1.5em;
+}
+
+.cart-item {
+  float: right;
+}
+
+.btn-round {
+  background-color: #651fff;
+}
+
+.btn-round:hover {
+  background-color: #0100ca;
+}
+
+.btn-round:disabled {
+  background-color: #651fff;
+}

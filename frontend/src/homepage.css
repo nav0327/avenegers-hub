@@ -1,0 +1,100 @@
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand > img {
+  padding: 7px 14px;
+}
+
+.searchBar {
+  width: 1500px;
+  background-color: #f8f9fa;
+}
+
+.mr-sm-2 {
+  width: 1000px;
+}
+
+.main123 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #340300;
+}
+.main123 {
+  height: 6%;
+  color: #fff;
+}
+.main123 li {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.main123 li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.main123 li a:hover,
+.main1 li a:active {
+  background-color: #ee9c13;
+  color: #340300;
+  font-weight: bold;
+}
+
+#category li {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1em;
+  border-radius: 15px;
+  display: inline-flex;
+  margin: 50px;
+}
+
+#filter {
+  float: left;
+}
+
+#filter ul {
+  list-style: none;
+  background-color: yellow;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1em;
+  border-radius: 15px;
+  width: 200px;
+  margin: 10px;
+}
+
+.checkbox-outerclass {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-container {
+  display: flex;
+}
+
+.element::-webkit-scrollbar {
+  width: 0 !important;
+}
+.dropdown-menu a.icon {
+  position: relative;
+  padding-left: 40px;
+}
+.dropdown-menu a.icon .glyphicon {
+  top: 6px;
+  left: 10px;
+  font-size: 18px;
+}
+
+#dropdown-item-button {
+  position: absolute;
+}
